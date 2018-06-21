@@ -1,0 +1,153 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg/bg3.jpg") no-repeat right top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: static;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    
+}
+.header img{
+    display: block;
+    margin: auto;
+}
+.logo {
+    width: 50%;
+    
+    
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    padding: 1em 0;
+}
+.box {
+    width: 100%;
+    height: 2em;
+    margin-bottom: -2em;
+    background: #fff;
+    opacity: 0.5;
+    z-index: 1;
+}
+.container h1 {
+    text-align:center;
+    font-size: 1em;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.hunt {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+.hunt .hunt-input,
+.hunt .huntBtn {
+    border: 0;
+    padding: 1em;
+}
+.hunt .huntBtn {
+    background-color: blue;
+    color: #FFC312;
+}
+.hunt input[type=text] {
+    width: 100%;
+}
+.pokemon {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: #fff;
+    opacity: 1;
+    color:black;  
+}
+
+.pokemon .pokemon-picture {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: -15%;
+    margin-right: 5%;
+    margin-top: 5%;;
+    margin-bottom: 5%;
+    
+  }
+
+.pokemon .info {
+    flex:2;  
+}
+
+.pokemon .info,
+.info-p {
+    justify-content: space-between;
+    text-align: justify;
+    font-size: 1em;
+    flex-direction: column;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.info span{
+    font-weight: 800;
+}
+.special {
+    color: blue;
+}
+.type-bg {
+    width: 20%;
+    height: 3em;
+    float: right;
+    border: 1px solid #000;
+    border-radius: 50%; 
+}
+
+.error {
+    display: none;
+    font-size: 1em;
+}
+
+@media all and (min-width: 400px) {
+    
+    .pokemon .pokemon-picture {
+        width: 230px;
+        display: flex;
+        align-items: center;
+        padding: 5%;
+        margin-left: -15%;
+        margin-bottom: 5%;
+        
+      }
+    
+    .type-bg {
+        width: 25%;
+        float: right;
+        border: 1px solid #000;
+        border-radius: 50%; 
+    }
+  }
+  
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    
+    .type-bg {
+        width: 17%;
+        height: 5em;
+        float: right;
+        border: 1px solid #000;
+        border-radius: 50%; 
+    }
+
+  }

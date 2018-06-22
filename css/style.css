@@ -85,6 +85,9 @@ html, body{
     margin-bottom: 5%;
     
   }
+ .pokemon-img {
+    width: 170px;
+ } 
 
 .pokemon .info {
     flex:2;  
@@ -119,6 +122,37 @@ html, body{
     font-size: 1em;
 }
 
+@media all and (min-width: 360px) {
+
+    .pokemon .info,
+    .info-p {
+        justify-content: space-between;
+        text-align: justify;
+        font-size: 1em;
+        flex-direction: column;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin-left: 1em;
+    }
+    
+    }
+
+@media all and (min-width: 375px) {
+
+.pokemon .info,
+.info-p {
+    justify-content: space-between;
+    text-align: justify;
+    font-size: 1em;
+    flex-direction: column;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 1em;
+}
+
+}
+
+
 @media all and (min-width: 400px) {
     
     .pokemon .pokemon-picture {
@@ -130,6 +164,9 @@ html, body{
         margin-bottom: 5%;
         
       }
+    .pokemon-img {
+        width: 170px;
+     } 
     
     .type-bg {
         width: 25%;

@@ -210,7 +210,7 @@ function info (){
     ball= `
 
     <div class="pokemon-picture">
-        <img src="${searchImg()}" alt="draw pokemon ${pokemon.name}">
+        <img src="${searchImg()}" class= "pokemon-img" alt="draw pokemon ${pokemon.name}">
     </div>
     <div class="info">
         <span>Name:</span>
